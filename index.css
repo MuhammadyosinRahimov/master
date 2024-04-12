@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+}
+
+.nav {
+  padding: 30px 200px;
+}
+.nav .nav_logo {
+  text-align: center;
+}
+.nav .nav_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .nav_text p {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.block1 img {
+  width: 100%;
+}
+
+.block2 h2 {
+  padding: 20px, 100px;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.block2 h2 span {
+  color: grey;
+}
+.block2 .block2_main h2 {
+  font-size: 50px;
+}
+
+.block11 .block11_text h1 {
+  margin-left: 200px;
+  margin-top: 100px;
+  font-size: 50px;
+}
+.block11 .block11_main, .block11 .block11_main5, .block11 .block11_main4, .block11 .block11_main3, .block11 .block11_main2, .block11 .block11_main1 {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 200px;
+  font-size: 15px;
+}
+.block11 .block11_main .poy, .block11 .block11_main5 .poy, .block11 .block11_main4 .poy, .block11 .block11_main3 .poy, .block11 .block11_main2 .poy, .block11 .block11_main1 .poy {
+  margin-left: 500px;
+}
+.block11 .block11_main h2, .block11 .block11_main5 h2, .block11 .block11_main4 h2, .block11 .block11_main3 h2, .block11 .block11_main2 h2, .block11 .block11_main1 h2 {
+  color: rgb(81, 81, 81);
+  margin-top: 30px;
+}
+.block11 .xat3 {
+  border: solid black;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 1324px;
+}
+.block11 .block11_main1 {
+  margin-top: -1px;
+}
+.block11 .block11_main1 .poy2 {
+  margin-left: 445px;
+}
+.block11 .block11_main2 {
+  margin-top: -1px;
+}
+.block11 .block11_main2 .poy3 {
+  margin-left: 425px;
+}
+.block11 .block11_main3 {
+  margin-top: -1px;
+}
+.block11 .block11_main3 .poy4 {
+  margin-left: 458px;
+}
+.block11 .block11_main4 {
+  margin-top: -1px;
+}
+.block11 .block11_main4 .poy5 {
+  margin-left: 455px;
+}
+.block11 .block11_main5 {
+  margin-top: -1px;
+}
+.block11 .block11_main5 .poy6 {
+  margin-left: 560px;
+}
+
+.block3 {
+  margin-left: 200px;
+  margin-top: 150px;
+}
+.block3 .textbl3 {
+  font-size: 50px;
+}
+.block3 .parbl3 {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.block4 .formho .text1, .block4 .formho .text2, .block4 .formho .wahr1, .block4 .formho .nomer1, .block4 .formho .mail1 {
+  width: 30%;
+  height: 70px;
+  border: none;
+  border-bottom: 1.5px solid grey;
+  position: relative;
+  left: 150px;
+}
+.block4 .formho .mail1 {
+  position: relative;
+  left: 150px;
+}
+.block4 .formho .nomer1 {
+  position: relative;
+  left: 150px;
+}
+.block4 .formho .wahr1 {
+  position: relative;
+  left: 150px;
+}
+.block4 .formho .text2 {
+  margin-left: 250px;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+}
+
+@mixin hight($hi) {
+  height: $hi;
+}
+@mixin pading($tb, $lr) {
+  padding: $tb, $lr;
+}
+@mixin width($width) {
+  width: $width;
+}
+@mixin font($size) {
+  font-size: $size;
+}
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  padding: 30px 200px;
+  .nav_logo {
+    text-align: center;
+  }
+  .nav_text {
+    @include flex();
+    p {
+      font-size: 15px;
+      font-family: sans-serif;
+      margin-top: 20px;
+    }
+  }
+}
+.block1 {
+  img {
+    width: 100%;
+  }
+}
+.block2 {
+  h2 {
+    @include pading(20px, 100px);
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-left: 100px;
+    span {
+      color: grey;
+    }
+  }
+  .block2_main {
+    h2 {
+      @include font(50px);
+    }
+  }
+}
+.block11 {
+  .block11_text {
+    h1 {
+      margin-left: 200px;
+      margin-top: 100px;
+      @include font(50px);
+    }
+  }
+  .block11_main {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 200px;
+    @include font(15px);
+    .poy {
+      margin-left: 500px;
+    }
+    h2 {
+      color: rgb(81, 81, 81);
+      margin-top: 30px;
+    }
+  }
+  .xat3 {
+    border: solid black;
+    margin-left: 100px;
+    margin-top: 20px;
+    @include width(1324px);
+  }
+  .block11_main1 {
+    @extend .block11_main;
+    margin-top: -1px;
+    .poy2 {
+      margin-left: 445px;
+    }
+  }
+  .block11_main2 {
+    @extend .block11_main;
+    margin-top: -1px;
+    .poy3 {
+      margin-left: 425px;
+    }
+  }
+  .block11_main3 {
+    @extend .block11_main;
+    margin-top: -1px;
+    .poy4 {
+      margin-left: 458px;
+    }
+  }
+  .block11_main4 {
+    @extend .block11_main;
+    margin-top: -1px;
+    .poy5 {
+      margin-left: 455px;
+    }
+  }
+  .block11_main5 {
+    @extend .block11_main;
+    margin-top: -1px;
+    .poy6 {
+      margin-left: 560px;
+    }
+  }
+}
+.block3 {
+  margin-left: 200px;
+  margin-top: 150px;
+  .textbl3 {
+    @include font(50px);
+  }
+  .parbl3 {
+    margin-top: 50px;
+    @include font(20px);
+  }
+}
+.block4 {
+  .formho {
+    .text1{
+      width: 30%;
+      height: 70px;
+      border: none;
+      border-bottom: 1.5px solid grey;
+      position: relative;
+      left: 150px;
+    }
+    .mail1{
+        @extend .text1;
+         position: relative;
+    left: 150px;
+    }
+    .nomer1{
+         @extend .text1;
+         position: relative;
+    left: 150px;
+    }
+    .wahr1{
+         @extend .text1;
+         position: relative;
+    left: 150px;
+    }
+    .text2{
+        margin-left: 250px;
+        @extend .text1;
+    }
+  }
+  .koment{}
+}
